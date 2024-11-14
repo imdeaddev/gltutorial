@@ -1,4 +1,4 @@
 add_subdirectory(glad)
-option(GLFW_BUILD_DOCS OFF)
 add_subdirectory(glfw)
+option(GLM_BUILD_LIBRARY OFF)
 add_subdirectory(glm)

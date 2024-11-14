@@ -74,7 +74,7 @@ add_subdirectory(source)
 
 # add_executable(ИМЯ_ИСПОЛНЯЕМОГО_ФАЙЛА ВАШИ_ИСХОДНЫЕ_ФАЙЛЫ), например:
 add_executable(game main.cpp)
-target_link_libraries(game PRIVATE glad glfw glm::glm) # подключаем библиотеки
+target_link_libraries(game PRIVATE glad glfw glm::glm-header-only) # подключаем библиотеки
 ```
 
 После можете приступить к [уроку 1](tutorials/01_hello_window.md)

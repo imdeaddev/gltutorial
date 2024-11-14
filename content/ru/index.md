@@ -7,7 +7,7 @@
     - [Для Linux](#для-linux)
     - [Для Mac OS](#для-mac-os)
   - [Visual Studio Code](#visual-studio-code)
-  - [Сборка](#сборка)
+  - [Создание проекта](#создание-проекта)
 
 ## Для чего они созданы?
 
@@ -69,21 +69,11 @@
 }
 ```
 
-## Сборка
+## Создание проекта
 
-Попробуйте собрать исходный код уроков или переходите сразу к созданию собственного проекта.
-Это можно сделать разными способами, например, создать проект в Visual Studio, но для простоты рекомендую скопировать папку `deps`  в папку своего проекта и добавить файлы `main.cpp` и `CMakeLists.txt` с следующим содержимым:
+Скачайте нужный шаблон и распакуйте его в любую удобную папку:
 
-```cmake
-cmake_minimum_required(VERSION 3.14 FATAL_ERROR)
-project("My OpenGL project")
+- [для Visual Studio](https://github.com/imdeaddev/gltutorial/releases/download/templates-0.1/template-vs.zip)
+- [для CMake + Visual Studio Code/любой другой редактор](https://github.com/imdeaddev/gltutorial/releases/download/templates-0.1/template-cmake.zip)
 
-add_subdirectory(deps)
-add_subdirectory(source)
-
-# add_executable(ИМЯ_ИСПОЛНЯЕМОГО_ФАЙЛА ВАШИ_ИСХОДНЫЕ_ФАЙЛЫ), например:
-add_executable(game main.cpp)
-target_link_libraries(game PRIVATE glad glfw glm::glm-header-only) # подключаем библиотеки
-```
-
-После можете приступить к [уроку 1](tutorials/01_hello_window.md)
+Откройте папку (или решение Visual Studio) в редакторе/IDE и можете приступить к [уроку 1](tutorials/01_hello_window.md)

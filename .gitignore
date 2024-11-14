@@ -1,0 +1,11 @@
+*
+!*/
+!.vscode/extensions.json
+!cmake/**
+!content/**
+!deps/**
+!source/**
+!/.gitignore
+!/CMakeLists.txt
+!/LICENSE
+!/README.md

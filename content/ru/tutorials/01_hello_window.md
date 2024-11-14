@@ -1,5 +1,14 @@
 # Hello window
 
+- [Hello window](#hello-window)
+  - [OpenGL](#opengl)
+  - [GLFW](#glfw)
+  - [Написание кода](#написание-кода)
+    - [Инициализация](#инициализация)
+    - [Создание окна](#создание-окна)
+    - [Главный цикл](#главный-цикл)
+  - [Итог](#итог)
+
 ## OpenGL
 
 Об OpenGL обычно говорят, как о графическом API, но это не совсем так, сама OpenGL - это спецификация API, разработанная [Khronos Group](http://www.khronos.org/), а конкретная реализация предоставляется графическим драйвером.
@@ -65,42 +74,10 @@ int main( int argc, const char *argv[] )
     }
 ```
 
-## Итоговый код
+## Итог
 
 При запуске данного кода, если Вы все сделали правильно, у Вас должно появится окно 640 на 480 с заголовком OpenGL tutorial.
 
-```cpp
-#include <GLFW/glfw3.h>
-#include <iostream>
+Исходный код - [01_hello_window](../../../source/01_hello_window/)
 
-constexpr int         g_nWindowWidth  = 640;
-constexpr int         g_nWindowHeight = 480;
-constexpr const char *g_szWindowTitle = "OpenGL tutorial";
-
-int main( int argc, const char *argv[] )
-{
-    GLFWwindow *pWindow = nullptr;
-    if ( !glfwInit() )
-    {
-        std::cerr << "Failed to init GLFW" << std::endl;
-        return -1;
-    }
-
-    pWindow = glfwCreateWindow( g_nWindowWidth, g_nWindowHeight, g_szWindowTitle, nullptr, nullptr );
-    if ( !pWindow )
-    {
-        std::cerr << "Failed to create window" << std::endl;
-        glfwTerminate();
-        return -1;
-    }
-
-    while ( !glfwWindowShouldClose( pWindow ) )
-    {
-        glfwPollEvents();
-    }
-
-    glfwDestroyWindow( pWindow );
-    glfwTerminate();
-    return 0;
-}
-```
+Далее - [урок 2](02_hello_opengl.md)

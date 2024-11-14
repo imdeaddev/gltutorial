@@ -1,6 +1,7 @@
 set(
     GL_TUTORIALS_LIST
     01_hello_window
+    02_hello_opengl
 )
 
 foreach(TUTORIAL ${GL_TUTORIALS_LIST})

@@ -18,13 +18,13 @@
 
 ### Для Windows
 
-- [git](https://git-scm.com/downloads/win) или командой `winget install Git.Git`
+- [git](https://git-scm.com/downloads/win) (или `winget install Git.Git`)
 - Компилятор
-- - [Visual Studio Community](https://visualstudio.microsoft.com/downloads/) или командой `winget install Microsoft.VisualStudio.2022.Community` (рекомендовано)
+- - [Visual Studio Community](https://visualstudio.microsoft.com/downloads/) (рекомендовано)
 - - или используйте [MinGW](https://code.visualstudio.com/docs/cpp/config-mingw)
 - - так же можно использовать clang, легче всего это сделать с Visual Studio - в установщике ищите "LVVM toolchain" и ставьте галочку
-- [CMake](https://cmake.org/download/) или командой `winget install Kitware.CMake`
-- (опционально) [Visual Studio Code](https://code.visualstudio.com/download) или командой `winget install Microsoft.VisualStudioCode`
+- [CMake](https://cmake.org/download/) (или `winget install Kitware.CMake`)
+- (опционально) [Visual Studio Code](https://code.visualstudio.com/download) (или `winget install Microsoft.VisualStudioCode`)
 - OpenGL 4.5-совместимая видеокарта (большинство современных видеокарт поддерживают OpenGL 4.5)
 
 ### Для Linux

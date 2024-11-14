@@ -5,6 +5,7 @@
   - [Tutorials](#tutorials)
   - [Third party libraries and tools](#third-party-libraries-and-tools)
   - [License](#license)
+  - [List of similar resources](#list-of-similar-resources)
 
 ## How to compile?
 
@@ -29,3 +30,11 @@ This project uses:
 ## License
 
 The code is licensed under WTFPL, and tutorials text is licensed under CC-BY-SA 4.0
+
+## List of similar resources
+
+- [Official Khronos tutorial](https://www.khronos.org/opengl/wiki/Getting_Started)
+- [LearnOpenGL](https://learnopengl.com/)
+- [opengl-tutorial](https://www.opengl-tutorial.org/)
+- [OpenGL Step by Step](https://ogldev.org/)
+- and many others

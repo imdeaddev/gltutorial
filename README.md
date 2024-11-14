@@ -1,5 +1,11 @@
 # OpenGL tutorial
 
+- [OpenGL tutorial](#opengl-tutorial)
+  - [How to compile?](#how-to-compile)
+  - [Tutorials](#tutorials)
+  - [Third party libraries and tools](#third-party-libraries-and-tools)
+  - [License](#license)
+
 ## How to compile?
 
 ```sh
@@ -8,9 +14,9 @@ cmake -S . -B build
 cmake --build build
 ```
 
-## Tutorial
+## Tutorials
 
-- [Russian](./content/ru/index.md)
+- [На русском](./content/ru/index.md)
 
 ## Third party libraries and tools
 
@@ -20,3 +26,7 @@ This project uses:
 - [GLFW](https://github.com/glfw/glfw) [[Zlib license](https://github.com/glfw/glfw/blob/master/LICENSE.md)] (glfw docs, tests and examples are not included in this distribution)
 - [glad](https://gen.glad.sh) [[Various licenses](https://github.com/Dav1dde/glad?tab=readme-ov-file#license)]
 - [glm](https://glm.g-truc.net) [[MIT license](https://github.com/g-truc/glm/blob/master/copying.txt)]
+
+## License
+
+The code is licensed under WTFPL, and tutorials text is licensed under CC-BY-SA 4.0

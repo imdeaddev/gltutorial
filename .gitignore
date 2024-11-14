@@ -5,6 +5,7 @@
 !/content/**
 !/deps/**
 !/source/**
+!/.clang-format
 !/.gitignore
 !/CMakeLists.txt
 !/LICENSE
